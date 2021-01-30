@@ -35,7 +35,7 @@ Translate('I Speak Chinese!', { to: 'zh' }).then(data => {
   // Translation from language iso
   console.log(data.from.iso); // en
   // Translation from language name
-  console.log(data.from.lang);
+  console.log(data.from.lang); // English
 });
 ```
 ### Get Language Name
