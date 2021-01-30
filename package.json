@@ -1,0 +1,29 @@
+{
+  "name": "google-translation-api",
+  "version": "1.0.6",
+  "description": "Google Translation API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlatCrypto/translate.git"
+  },
+  "keywords": [
+    "translate",
+    "translation",
+    "translation-api"
+  ],
+  "author": "FlatCrypto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlatCrypto/translate/issues"
+  },
+  "homepage": "https://github.com/FlatCrypto/translate#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
